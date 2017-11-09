@@ -2866,6 +2866,11 @@
 		margin-top: 4%;
 	}
 
+	#header .fa-envelope-o {
+		display: block;
+		margin-top: 8%;
+	}
+
 	#header .info {
 		display: flex;
 		justify-content: space-between;
@@ -2873,6 +2878,13 @@
 
 	#header .info p {
 		margin-top: 0;
+	}
+
+	#header .info a {
+		border-bottom: none;
+		border: 1px solid #585858;
+		margin-bottom: 25px;
+		padding: 0 4px;
 	}
 
 	#header .description {
