@@ -2583,6 +2583,15 @@
 			opacity: 0.25;
 		}
 
+/* Skills */
+
+	.skills ul {
+		justify-content: center;
+		list-style: none;
+		display: flex;
+		font-size: 25px;
+	}
+
 /* Tiles */
 
 	.github-links {
