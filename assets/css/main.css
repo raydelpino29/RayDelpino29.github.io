@@ -2597,7 +2597,7 @@
 	.github-links {
 		display: flex;
 		justify-content: space-between;
-		padding: 0 18%;
+		padding: 0 14vw;
 	}
 
 	.github-links a {
@@ -2899,7 +2899,7 @@
 	#header .info a {
 		border-bottom: none;
 		border: 1px solid #585858;
-		margin-bottom: 25px;
+		margin-bottom: 32px;
 		padding: 0 2%;
 	}
 
