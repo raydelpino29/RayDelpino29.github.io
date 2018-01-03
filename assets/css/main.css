@@ -2590,6 +2590,11 @@
 		list-style: none;
 		display: flex;
 		font-size: 25px;
+    padding: 0;
+	}
+
+	.skills ul li {
+    padding: 0 0.5em;
 	}
 
 /* Tiles */
