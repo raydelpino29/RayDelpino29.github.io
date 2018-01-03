@@ -2599,20 +2599,18 @@
 
 /* Tiles */
 
-	.github-links {
-		display: flex;
-		justify-content: space-between;
-		padding: 0 14vw;
+	.github {
+		justify-content: center;
+    display: flex;
 	}
 
-	.github-links a {
-		font-size: 1em;
+	.github a {
+		border: 1px solid gray;
+		padding: 2%;
 		position: relative;
-		top: -3em;
-		border: none;
-		cursor: pointer;
-		border: 1px solid #585858;
-		padding: 0 2%;
+		display: block;
+		margin: 0 auto;
+		top: 20px;
 	}
 
 	.github-links a:nth-child(2) {
