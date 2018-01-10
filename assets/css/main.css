@@ -24,6 +24,7 @@
 
 	body {
 		line-height: 1;
+		min-width: 1111px;
 	}
 
 	ol, ul {
@@ -1614,14 +1615,6 @@
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
-
-		html, body {
-			min-width: 320px;
-		}
-
-	}
-
 	body {
 		background: #ffffff;
 	}
@@ -2904,6 +2897,7 @@
 		border: 1px solid #585858;
 		margin-bottom: 32px;
 		padding: 0 2%;
+		width: 135px;
 	}
 
 	#header .description {
@@ -3418,3 +3412,7 @@
 			}
 
 		}
+
+	html, body {
+		min-width: 1111px !important;
+	}
