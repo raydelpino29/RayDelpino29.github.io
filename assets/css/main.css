@@ -2893,11 +2893,14 @@
 	}
 
 	#header .info a {
-		width: 135px;
 		border-bottom: none;
 		border: 1px solid #585858;
 		margin-bottom: 32px;
 		padding: 0 2%;
+	}
+
+	.resume {
+		width: 135px;
 	}
 
 	#header .description {
