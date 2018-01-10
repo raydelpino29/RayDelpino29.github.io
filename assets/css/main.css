@@ -2900,7 +2900,7 @@
 	}
 
 	.resume {
-		width: 135px;
+		width: 135px !important; 
 	}
 
 	#header .description {
