@@ -2886,6 +2886,7 @@
 	#header .info {
 		display: flex;
 		justify-content: space-between;
+		text-align: center;
 	}
 
 	#header .info p {
