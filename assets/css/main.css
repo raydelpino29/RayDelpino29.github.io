@@ -2603,7 +2603,7 @@
 		position: relative;
 		display: block;
 		margin: 0 auto;
-		top: 20px;
+		top: 50px;
 	}
 
 	.github-links a:nth-child(2) {
@@ -2869,21 +2869,6 @@
 		right: 23vw;
 	}
 
-	#header > a {
-		position: fixed;
-    margin-top: 2.5%;
-	}
-
-	#header .fa-linkedin {
-		display: block;
-		margin-top: 6.5%;
-	}
-
-	#header .fa-envelope-o {
-		display: block;
-		margin-top: 10.5%;
-	}
-
 	#header .info {
 		display: flex;
 		justify-content: space-between;
@@ -2903,9 +2888,16 @@
 
 	#header .description {
 		position: absolute;
-    top: 6em;
-    left: 47vw;
-    right: 5vw;
+		top: 6em;
+		min-width: 500px;
+		left: 500px;
+		right: 5vw;
+	}
+
+	@media (min-width: 1080px) {
+		#header .description {
+			left: 47vw;
+		}
 	}
 
 	#header {
@@ -2929,7 +2921,39 @@
 				vertical-align: middle;
 				font-size: 25px;
 				position: absolute;
-				top: 2em;
+				top: 1em;
+			}
+
+			@media (max-width: 920px) {
+				#header .logo > .title {
+			    display: table;
+			    font-size: 25px;
+			    position: absolute;
+			    left: 20em;
+			    top: 1em;
+				}
+			}
+
+			.fixed {
+				display: flex;
+				position: fixed;
+				flex-direction: column;
+				padding: 0;
+				top: 60px;
+			}
+
+			@media (max-width: 736px) {
+				.fixed {
+					display: flex;
+			    position: absolute;
+			    flex-direction: row;
+			    padding: 0;
+			    top: 0;
+				}
+			}
+
+			.fixed a {
+				margin: 2px;
 			}
 
 			#header .logo .symbol {
@@ -2940,6 +2964,7 @@
 					display: block;
 					width: 26em;
 					height: 25em;
+					border-radius: 15px;
 				}
 
 		#header nav {
