@@ -2581,8 +2581,7 @@
 	.skills ul {
     list-style: none;
     text-align: center;
-    display: grid;
-    grid-template: 100% / 1fr 1fr 1fr;
+    display: flex;
 	}
 
 	.skills ul li {
